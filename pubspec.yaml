@@ -9,7 +9,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  protobuf: ^2.0.0
+  protobuf:
+    git:
+      url: https://gitlab.chongshengteng.cn/flutter/protobuf.git
+      ref: main
   http: ^0.13.3
   path_drawing: ^1.0.0
   archive: ^3.1.2
